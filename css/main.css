@@ -15,5 +15,40 @@ body {
 }
 
 .header-container {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: rgb(179, 148, 63);
+    background-color: rgb(49, 48, 48);
+
+    height: 70px;
+}
+
+.header-container .title {
+    margin-left: 40px;
+}
+
+.header-container .form  {
+    display: flex;
+    margin-right: 40px;
+}
+
+.search-bar {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.search-bar::placeholder {
+    margin-right: 5px;
+}
+
+button.find {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 148, 63);
+
+    width: 50px;
+    height: 30px;
+    background-color: rgb(179, 148, 63);
 }
